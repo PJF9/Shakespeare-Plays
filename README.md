@@ -43,6 +43,10 @@ The Transformer model, introduced by Vaswani et al. (2017), is based on the self
 * Optimizer: Adam
 * Loss function: Sparse categorical crossentropy
 
+
+## Training the Models
+An efficient approach was used to train the models by leveraging Google Colab's GPU capabilities. The `to_notebook.py` script was employed to convert the code from the `src` directory into a Python notebook format. This allowed for seamless execution of the training process on Colab, taking advantage of the available hardware acceleration for faster training.
+
 ## Installation and Setup
 To run the project on your local machine, follow these steps:
 ### Prerequisites
