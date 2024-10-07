@@ -1,0 +1,17 @@
+NUM_TRAIN_DATA=5
+BATCH_SIZE = 128
+BLOCK_SIZE = 100
+LEARNING_RATE=1e-3
+WEIGHT_DECAY=0.01
+EPOCHS=40
+GAMMA=None
+TRANSFORMER_CONFIGS = dict(
+    embedding_dim=64,
+    n_head=2,
+    n_encoders=2,
+    n_decoders=2,
+    dim_feedforward=64,
+    dropout=0.2
+)
+
+{'Loss': 1.915617823600769, 'perplexity': 6.791133403778076, 'accuracy': 0.45389415842648323, 'precision': 0.45502617964793324, 'recall': 0.45389415842648323, 'specificity': 0.9859176350485596, 'f1_score': 0.43250692522644196}

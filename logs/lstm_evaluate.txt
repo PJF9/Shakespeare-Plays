@@ -1,0 +1,15 @@
+BATCH_SIZE = 128
+BLOCK_SIZE = 100
+LEARNING_RATE=1e-3
+WEIGHT_DECAY=0.01
+EPOCHS=20
+GAMMA=None
+NUM_TRAIN_DATA=4
+LSTM_CONFIGS = dict(
+    embedding_dim=64,
+    hidden_dim=64,
+    num_layers=2,
+    dropout=0.4
+)
+
+{'Loss': 1.7590044736862183, 'perplexity': 5.80665397644043, 'accuracy': 0.5025076246247935, 'precision': 0.49615825384494067, 'recall': 0.5025076246247935, 'specificity': 0.9866117806005464, 'f1_score': 0.4864552280988702}
