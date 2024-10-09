@@ -56,8 +56,8 @@ Ensure that you have Python 3.8 or higher installed on your machine. You also ne
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/shakespeare-generation.git
-cd shakespeare-generation
+git https://github.com/PJF9/Shakespeare-Plays.git
+cd Shakespeare-Plays
 ```
 
 **2. Install required dependencies:**
